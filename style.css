@@ -1,0 +1,105 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Sarabun', sans-serif;
+}
+
+.section{
+    margin-bottom: 50px;
+}
+
+.section1{
+    margin-bottom: 150px;
+}
+
+.poster{
+    width: 30rem;
+    height: auto;
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+}
+
+.poster:hover{
+    width: 30rem;
+    height: auto;
+    border-radius: 15px;
+    transform: scale(1.1);
+
+}
+
+.boton{
+    background-color: #8C1C6E;
+    border-color: #8C1C6E;
+    color: white;
+    border-radius: 5px;
+    padding-left:35px;
+    padding-right:35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.boton:hover{
+    background-color: #8C2E2E;
+    border-color: #8C2E2E;
+    color: white;
+    border-radius: 5px;
+    padding-left:35px;
+    padding-right:35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: black;
+    padding:20px;
+}
+
+@media only screen and (max-width: 420px) {
+    .copyright{
+       padding-top: 10px;
+       margin-bottom: 0px;
+    }
+  }
+
+.logo-footer{
+    width: 8rem;
+    height: auto;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 420px) {
+    .poster{
+        width: 18rem;
+        height: auto;
+        border-radius: 15px;
+        transition: all .2s ease-in-out;
+        margin-top: 20px;
+        
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .poster:hover{
+        width: 18rem;
+        height: auto;
+        border-radius: 15px;
+        transform: scale(1.1);
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    body{
+        overflow-x: hidden;
+        
+    }
+  }
