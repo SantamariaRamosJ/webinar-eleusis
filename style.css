@@ -44,6 +44,7 @@ body{
     font-weight: bold;
     margin-top: 30px;
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .boton:hover{
@@ -62,12 +63,13 @@ body{
 .footer{
     background-color: black;
     padding:20px;
+    height: 100%;
 }
 
 @media only screen and (max-width: 420px) {
     .copyright{
-       padding-top: 10px;
-       margin-bottom: 0px;
+        padding-top: 10px;
+        margin-bottom: 0px;
     }
   }
 
@@ -91,31 +93,73 @@ body{
     }
   }
 
-  @media only screen and (max-width: 420px) and (min-width: 240px)  {
+@media only screen and (max-width: 420px)  and (min-width: 281px)  {
+.poster:hover{
+    width: 18rem;
+    height: auto;
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+}
+
+@media only screen and (max-width: 420px)  and (min-width: 281px) {
+body{
+    overflow-x: hidden;
+    
+}
+}
+
+@media only screen and (max-width: 280px) {
+.poster{
+    width: 13rem;
+    height: auto;
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+    margin-top: 20px;
+    
+}
+}
+
+@media only screen and (max-width: 280px) {
     .poster:hover{
-        width: 18rem;
-        height: auto;
-        border-radius: 15px;
-        transform: scale(1.1);
-    }
-  }
-
-  @media only screen and (max-width: 420px) {
-    body{
-        overflow-x: hidden;
-        
-    }
-  }
-
-  @media only screen and (max-width: 280 px)  and (min-width: 220px) {
-    .poster{
-        width: 12rem;
+        width: 13rem;
         height: auto;
         border-radius: 15px;
         transition: all .2s ease-in-out;
         margin-top: 20px;
         
     }
-  }
+    }
+
+
+@media only screen and (max-width: 768px)  and (min-width: 421px){
+.poster{
+    width: 20rem;
+    height: auto;
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+    margin-top: 20px;
+    
+}
+}
+
+@media only screen and (max-width: 768px)  and (min-width: 421px){
+.poster:hover{
+    width: 20rem;
+    height: auto;
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+    margin-top: 20px;
+    
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 421px){
+.footer{
+    height: 21rem;
+    
+    
+}
+}
 
  

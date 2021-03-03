@@ -41,6 +41,7 @@
     margin-top: 30px;
     font-size: 20px;
     margin-left: 15px;
+    margin-right: 15px;
 }
 
 .botones:hover{
@@ -56,16 +57,36 @@
     margin-top: 30px;
 }
 
+@media only screen and (max-width: 320px) {
+    .botones{
+        font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 280px) {
+    .botones{
+        padding-left:20px;
+        padding-right:20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+  }
 
 .footer{
     background-color: black;
     padding:20px;
+    height: 100%;
+    width: 100%;
 }
+
 
 .logo-footer{
     width: 8rem;
     height: auto;
     margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
